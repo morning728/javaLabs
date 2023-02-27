@@ -13,7 +13,7 @@ public class exercise2 {
         List<Human> humans = new ArrayList<>();
         humans.add(new Human(12, "Adam", "Green", LocalDate.of(2133, 12, 9), 123));
         humans.add(new Human(34, "Ivan", "Blue", LocalDate.of(1912, 12, 7), 45));
-        humans.add(new Human(23, "James", "Red", LocalDate.of(1780, 11, 3), 59));
+        humans.add(new Human(23, "Sasha", "Grey", LocalDate.of(1780, 11, 3), 59));
         humans.add(new Human(32, "Jack", "Black", LocalDate.of(1935, 3, 1), 67));
         humans.add(new Human(54, "Eve", "White", LocalDate.of(1747, 5, 23), 23));
         humans.add(new Human(74, "Anna", "Robins", LocalDate.of(1956, 1, 31), 45));

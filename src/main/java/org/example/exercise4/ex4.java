@@ -81,11 +81,11 @@ public class ex4 {
 
         Impl exec = new Impl(2);
         exec.execute(() -> {
-            try {
-                Thread.sleep(100);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+//            try {
+//                Thread.sleep(100);
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
             System.out.println("two");
         });
 

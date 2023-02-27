@@ -61,7 +61,7 @@ public class SyncList<E> implements List{
     }
 
     @Override
-    public synchronized boolean add(Object o) {
+    public  boolean add(Object o) {
         try {
             return list.add((E) o);
         }catch (Exception e){
