@@ -11,6 +11,8 @@ public class Main {
         s.getState();
         s.nextState();
         s.getState();
+        s.nextState();
+        s.getState();
         s.prevState();
         s.getState();
     }
